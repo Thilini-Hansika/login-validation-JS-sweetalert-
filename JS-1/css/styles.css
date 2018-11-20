@@ -1,0 +1,16 @@
+  /*External style sheet*/
+       h1{
+            color: red;
+            text-align: center;
+        }
+         #h1-ijse,p1{
+            color: steelblue;
+            text-align: center;
+        }
+        h2{
+            visibility: hidden;
+        }
+        span{
+            color: blueviolet;
+        }
+        

@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Thable</title>
+        <style>
+        table,th,td,tr{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        #tablHeder{
+            color: blue;
+        }
+        th{
+            text-align: left;
+        }
+        caption{
+            font-size: 30px;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>ABC(pvt)Ltd</caption>
+            <thead>
+                <tr>
+                    <th colspan="3">Invoice#123456789</th>
+                    <th>2017-September-10</th>
+                </tr>
+                <tr>
+                    <td colspan="2"><span class="bold">Pay to-</span>
+                        <br>ACme Billing Co
+                        <br>123,Main Street
+                        <br>CityVill,NA 123
+                    </td>
+                    <td colspan="2"><span class="bold">Customer</span>
+                        <br>Jhone Smith
+                        <br>322, Willoway
+                       <br> SouthEast,MA 553
+                    </td>
+                </tr>
+            </thead>
+        <tbody>
+            <tr id="tablHeder">
+                <th>Name/Discription</th>
+                <th>Quentity</th>
+                <th>@</th>
+                <th>Cost</th>
+            </tr>
+            <tr>
+                <td>paperclips</td>
+                <td>1000</td>
+                <td>0.01</td>
+                <td>10.00</td>
+            </tr>
+            <tr>
+                <td>Staple</td>
+                <td>100</td>
+                <td>1.00</td>
+                <td>100.00</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">subTable</th>
+                <td>110.00</td>
+            </tr>
+            <tr>
+                <th colspan="2">Tax</th>
+                <td>8%</td>
+                <td>8.80</td>
+            </tr>
+            <tr>
+                <th colspan="3">GrandTotal</th>
+                <td>$118.80</td>
+            </tr>
+        </tfoot>
+
+        </table>
+    </body>
+</html>
